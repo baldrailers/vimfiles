@@ -38,7 +38,7 @@ map <leader>H <C-W>H
 map <leader>L <C-W>L
 
 map <leader>w <C-W>w
-map <leader>n <C-W>n
+" map <leader>n <C-W>n
 map <leader>q <C-W>q
 map <leader>s <C-W>s
 map <leader>v <C-W>v
