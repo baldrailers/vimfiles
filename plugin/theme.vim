@@ -18,6 +18,11 @@ if !has("gui_running")
   hi Conceal ctermbg=none ctermfg=1
 endif
 
+let insidetmux=$TMUX
+if insidetmux != ""
+  color gotham256
+endif
+
 "
 " Macvim
 "
