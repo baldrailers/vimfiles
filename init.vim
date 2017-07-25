@@ -135,6 +135,7 @@ if $VIM_MINIMAL == ''
   Plug 'vim-ruby/vim-ruby', { 'for': 'ruby' }
   Plug 'wavded/vim-stylus', { 'for': 'stylus' }
   Plug 'romanzolotarev/vim-journal', { 'for': 'journal' }
+  Plug 'fatih/vim-go'
 
   " Retired
   " Plug 'mitee/vim-gf-python'
