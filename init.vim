@@ -1,6 +1,7 @@
 set t_Co=256
 set nocompatible
 let g:mapleader=","
+let g:ale_emit_conflict_warnings = 0
 syntax on
 filetype plugin indent on
 
