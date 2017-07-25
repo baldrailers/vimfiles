@@ -16,7 +16,7 @@ Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'spf13/vim-colors'
 Plug 'chriskempson/base16-vim'
 " Plug 'ivan-cukic/vim-colors-penultimate'
-" Plug 'whatyouhide/vim-gotham'
+Plug 'whatyouhide/vim-gotham'
 " Plug 'gryftir/gryffin'
 " Plug 'vim-scripts/vylight'
 
@@ -69,7 +69,6 @@ if $VIM_MINIMAL == ''
   Plug 'justincampbell/vim-eighties'
   " Plug 'majkinetor/unite-cmdmatch'
   Plug 'mattn/emmet-vim', { 'for': ['html'] }
-  " Plug 'mattn/webapi-vim' " for vim-quicklink
   Plug 'mhinz/vim-grepper'
   Plug 'mhinz/vim-signify'
   Plug 'mhinz/vim-startify'
@@ -136,6 +135,10 @@ if $VIM_MINIMAL == ''
   Plug 'wavded/vim-stylus', { 'for': 'stylus' }
   Plug 'romanzolotarev/vim-journal', { 'for': 'journal' }
   Plug 'fatih/vim-go'
+
+  " Gist
+  Plug 'mattn/gist-vim'
+  Plug 'mattn/webapi-vim' " for vim-quicklink
 
   " Retired
   " Plug 'mitee/vim-gf-python'
