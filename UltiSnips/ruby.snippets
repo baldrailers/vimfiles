@@ -3,6 +3,12 @@ $stderr.write 'Press enter to continue'; $stdin.gets
 endsnippet
 
 # RSpec
+snippet rsp "RSpec" b
+RSpec.describe $1, type: :$2 do
+  $0
+end
+endsnippet
+
 snippet lt "let" b
 let(:${1}) { $2 }
 endsnippet
