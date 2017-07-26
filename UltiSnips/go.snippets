@@ -2,8 +2,42 @@
 
 priority -10
 
-snippet funch "HTTP handler" b
+snippet funch "HTTP handler"
 func ${1:handler}(${2:w} http.ResponseWriter, ${3:r} *http.Request) {
 	${0:${VISUAL}}
 }
+endsnippet
+
+# gobuffalo.io
+
+snippet buffh "Buffalo Handler"
+func ${1:handler}(next buffalo.Handler) buffalo.Handler {
+	return func(c buffalo.Context) error {
+		$2
+		return next(c)
+	}
+}
+endsnippet
+
+snippet buff "Buffalo Func"
+func (${1:var} ${2:resource}) ${3:FunctionName}(c buffalo.Context) error{
+	$7
+
+	return c.Render(${4:200}, r.${5:HTML}("${6:index.html}"))
+}
+endsnippet
+
+snippet bufgn "Buffalo grift namespace"
+var _ = grift.Namespace("$1", func() {
+
+	$2
+})
+endsnippet
+
+snippet bufgr "Buffalo grift"
+grift.Desc("$1", "$2")
+grift.Add("$1", func(c *grift.Context) error {
+	$3
+	return nil
+})
 endsnippet

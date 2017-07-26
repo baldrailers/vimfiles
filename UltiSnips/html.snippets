@@ -9,3 +9,18 @@ snippet html "Basic HTML5 template"
 </body>
 </html>
 endsnippet
+
+# gobuffalo.io
+snippet bufpb "Plush Tag"
+<%= $1 { %>
+	$2
+<% } %>
+endsnippet
+
+snippet bufpbif "Plush Tag"
+<%= if ($1) { %>
+	$2
+	<% } else { %>
+	$3
+<% } %>
+endsnippet
