@@ -1,3 +1,48 @@
 snippet pause "Pause capybara"
 $stderr.write 'Press enter to continue'; $stdin.gets
 endsnippet
+
+# RSpec
+snippet lt "let" b
+let(:${1}) { $2 }
+endsnippet
+
+snippet ltb "let!" b
+let!(:${1}) { $2 }
+endsnippet
+
+snippet desc "describe" b
+describe '$1' do
+  $2
+end
+endsnippet
+
+snippet descc "describe...context" b
+describe '$1' do
+  context '$2' do
+    $3
+  end
+end
+endsnippet
+
+snippet descci "describe...context...it" b
+describe '$1' do
+  context '$2' do
+    it '$3' do
+      $4
+    end
+  end
+end
+endsnippet
+
+snippet con "context..do" b
+context '$1' do
+  $2
+end
+endsnippet
+
+snippet it "it..do" b
+it '$1' do
+  $2
+end
+endsnippet
