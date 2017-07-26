@@ -13,3 +13,4 @@ let g:NERDTreeMouseMode=2        " click to open
 let g:NERDTreeMinimalUI=1        " hide labels
 let g:NERDTreeDirArrows=1
 let g:NERDTreeShowHidden=1
+let g:NERDTreeIgnore=['^Godeps$', '^node_modules$']
