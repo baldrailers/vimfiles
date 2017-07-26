@@ -135,6 +135,8 @@ if $VIM_MINIMAL == ''
   Plug 'wavded/vim-stylus', { 'for': 'stylus' }
   Plug 'romanzolotarev/vim-journal', { 'for': 'journal' }
   Plug 'fatih/vim-go'
+  Plug 'ekalinin/Dockerfile.vim', {'for' : 'Dockerfile'}
+  Plug 'elzr/vim-json', {'for' : 'json'}
 
   " Gist
   Plug 'mattn/gist-vim'
