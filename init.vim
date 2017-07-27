@@ -1,5 +1,6 @@
 set t_Co=256
 set nocompatible
+set lazyredraw
 let g:mapleader=","
 let g:ale_emit_conflict_warnings = 0
 syntax on
