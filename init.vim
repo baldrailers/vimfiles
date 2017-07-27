@@ -16,6 +16,12 @@ Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'spf13/vim-colors'
 Plug 'whatyouhide/vim-gotham'
 Plug 'arcticicestudio/nord-vim'
+Plug 'beigebrucewayne/Turtles'
+Plug 'nightsense/seabird'
+Plug 'ayu-theme/ayu-vim'
+
+" Indention
+Plug 'Yggdroot/indentLine'
 
 if $VIM_MINIMAL == ''
   " Slow plugins
