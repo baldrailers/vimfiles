@@ -19,10 +19,11 @@ map <leader>,. <C-W>15>
 "
 
 nmap <C-H> :bprev<CR>
-nmap <C-L> :bnext<CR>
+" nmap <C-L> :bnext<CR>
 imap <C-H> <Esc>:bprev<CR>
 imap <C-L> <Esc>:bnext<CR>
 
+nmap <C-L> :ALELint<CR>
 "
 " Convenience shortcuts for window ops
 "
