@@ -15,6 +15,7 @@ endif
 Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'spf13/vim-colors'
 Plug 'whatyouhide/vim-gotham'
+Plug 'arcticicestudio/nord-vim'
 
 if $VIM_MINIMAL == ''
   " Slow plugins
