@@ -11,7 +11,7 @@ let g:airline_theme='raven'
 if !has("gui_running")
   set t_Co=256
   set background=dark
-  color greygull
+  color Tomorrow
   hi VertSplit cterm=none ctermbg=none
   hi NonText ctermfg=11
   hi Conceal ctermbg=none ctermfg=1
@@ -23,7 +23,7 @@ endif
 
 let insidetmux=$TMUX
 if insidetmux != ""
-  color turtles
+  color nord
 endif
 
 "
