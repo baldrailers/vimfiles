@@ -27,6 +27,14 @@ if insidetmux != ""
 endif
 
 "
+" Day Night Mode
+"
+let daytime=system('date "+%H"')
+if daytime < 18
+  color Tomorrow
+endif
+
+"
 " Macvim
 "
 
