@@ -3,7 +3,7 @@ if globpath(&rtp, "plugin/NERD_tree.vim") == ""
 endif
 
 noremap <leader>f :NERDTreeFind<CR>
-noremap <leader>n :NERDTreeToggle<CR>
+noremap <leader>n :NERDTreeToggle<CR> :vertical resize 25<CR>
 
 let g:NERDTreeHijackNetrw=1
 let g:NERDTreeWinPos='right'
