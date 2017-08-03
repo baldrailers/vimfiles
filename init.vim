@@ -16,7 +16,7 @@ endif
 Plug 'chriskempson/tomorrow-theme', { 'rtp': 'vim' }
 Plug 'spf13/vim-colors'
 Plug 'whatyouhide/vim-gotham'
-Plug 'arcticicestudio/nord-vim'
+Plug 'arcticicestudio/nord-vim', { 'branch': 'develop' }
 Plug 'beigebrucewayne/Turtles'
 Plug 'nightsense/seabird'
 Plug 'ayu-theme/ayu-vim'
