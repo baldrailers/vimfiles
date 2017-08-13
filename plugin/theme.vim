@@ -51,3 +51,5 @@ if has("gui_running") && (has("gui_macvim") || has("gui_vimr"))
   let g:airline_theme='base16'
   set guifont=Monaco:h12 linespace=0
 endif
+
+color Tomorrow-Night-Bright
