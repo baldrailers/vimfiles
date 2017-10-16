@@ -1,4 +1,5 @@
 set t_Co=256
+set t_ut=
 set encoding=utf-8
 set nocompatible
 set lazyredraw
@@ -21,6 +22,7 @@ Plug 'arcticicestudio/nord-vim', { 'branch': 'develop' }
 Plug 'beigebrucewayne/Turtles'
 Plug 'nightsense/seabird'
 Plug 'ayu-theme/ayu-vim'
+Plug 'tomasiser/vim-code-dark'
 
 " Indention
 Plug 'Yggdroot/indentLine'
