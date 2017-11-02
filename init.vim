@@ -98,6 +98,11 @@ if $VIM_MINIMAL == ''
   Plug 'fatih/vim-go'
   Plug 'ekalinin/Dockerfile.vim', {'for' : 'Dockerfile'}
   Plug 'elzr/vim-json', {'for' : 'json'}
+  Plug 'pearofducks/ansible-vim'
+  Plug 'tomlion/vim-solidity'
+  Plug 'dart-lang/dart-vim-plugin'
+  Plug 'digitaltoad/vim-pug'
+  Plug 'dNitro/vim-pug-complete', { 'for': ['jade', 'pug'] }
 
   " Gist
   Plug 'mattn/gist-vim'

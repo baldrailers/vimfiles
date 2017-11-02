@@ -23,7 +23,7 @@ endif
 
 let insidetmux=$TMUX
 if insidetmux != ""
-  color nord
+  color Tomorrow-Night
 endif
 
 "
