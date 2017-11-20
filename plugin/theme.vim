@@ -52,4 +52,5 @@ if has("gui_running") && (has("gui_macvim") || has("gui_vimr"))
   set guifont=Monaco:h12 linespace=0
 endif
 
-color codedark
+set background=dark
+color solarized

@@ -23,6 +23,9 @@ Plug 'beigebrucewayne/Turtles'
 Plug 'nightsense/seabird'
 Plug 'ayu-theme/ayu-vim'
 Plug 'tomasiser/vim-code-dark'
+Plug 'hauleth/blame.vim'
+Plug 'nightsense/nemo'
+Plug 'altercation/vim-colors-solarized'
 
 " Indention
 Plug 'Yggdroot/indentLine'
